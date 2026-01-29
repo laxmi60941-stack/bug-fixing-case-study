@@ -1,17 +1,2 @@
 def add(a, b):
-    return a - b   # BUG: should be addition
-
-def subtract(a, b):
-    return a + b   # BUG: should be subtraction
-
-def multiply(a, b):
-    return a * b
-
-def divide(a, b):
-    return a / b   # BUG: division by zero not handled
-
-if __name__ == "__main__":
-    print("Add:", add(10, 5))
-    print("Subtract:", subtract(10, 5))
-    print("Multiply:", multiply(10, 5))
-    print("Divide:", divide(10, 0))
+    return a + b
